@@ -32,3 +32,26 @@ const myFunction = function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Stack (Primitive), Heap (Non-Primative)
+
+let myName = "kaishk Raj"
+
+let Name = myName
+
+Name = "Raj Kanishk"
+console.log(Name);
+console.log(myName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@pay",
+}
+
+let userTwo = userOne
+
+userTwo.email = "kanishk@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+

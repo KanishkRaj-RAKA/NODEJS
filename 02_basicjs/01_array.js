@@ -4,7 +4,7 @@ const myArry = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
 const myHeors = ["Kanishk", "Prince", "Rohit"]
 
 const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArry[1]);
+console.log(myArry[1]);
 
 
 // Array Methods
@@ -14,16 +14,16 @@ myArry.pop()  // remove the last element
 myArry.unshift(9) 
 myArry.shift()
 
-// console.log(myArry.includes(9)); // find the element with return type bollean
-// console.log(myArry.indexOf(1));
+console.log(myArry.includes(9)); // find the element with return type bollean
+console.log(myArry.indexOf(1));
 
-// console.log(myArry)
+console.log(myArry)
 
-// const newArry = myArry.join()
+const newArry = myArry.join()
 
-// console.log(myArry);
-// console.log(newArry) //1,2,3,4,5,6,7,8,9
-// console.log(typeof(newArry)) // string
+console.log(myArry);
+console.log(newArry) //1,2,3,4,5,6,7,8,9
+console.log(typeof(newArry)) // string
 
 
 // Slice , Splice
